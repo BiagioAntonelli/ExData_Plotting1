@@ -20,7 +20,7 @@ hist(subset$Global_active_power , col = "red", main = paste("Global_active_power
      xlab = paste("Global_active_power") )
 
 #Export png file
-dev.copy(png, file = "plot1.png")
+dev.copy(png, file = "plot1.png",width=480, height=480)
 dev.off()
 
 
