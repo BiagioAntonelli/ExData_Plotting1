@@ -30,5 +30,5 @@ legend("topright", pch = 1, col = c("black","blue","red"), legend = c("Sub_meter
 ##4
 with(subset,plot(x,Global_reactive_power,type="l", xlab=paste(""),ylab=paste("Global_reactive_power")))
 
-dev.copy(png, file = "plot4.png")
+dev.copy(png, file = "plot4.png",width=480, height=480)
 dev.off()
