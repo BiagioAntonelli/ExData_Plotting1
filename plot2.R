@@ -16,5 +16,5 @@ subset<-dataset[min(limits):max(limits),]
 #Plot 2
 plot(subset$x,subset$ Global_active_power,type="l", xlab=paste(""),ylab=paste("Global_active_power"))
 
-dev.copy(png, file = "plot2.png")
+dev.copy(png, file = "plot2.png",width=480, height=480)
 dev.off()
